@@ -1,0 +1,76 @@
+body{
+    background-image:url(backimg.avif) ;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.main-section{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 40px;
+}
+
+ .right-column{
+    flex:1;
+    font-size: 20px;
+    color: white;
+   
+}
+
+
+
+button:hover{
+    background-color: lightgrey;
+    font-size: 18px;
+}
+.About{
+  
+   margin-top: 150px;
+}
+
+.About:hover{
+  color: black;
+}
+
+#name:hover{
+  font-size: 18px;
+}
+
+#phone:hover{
+    font-size: 18px;
+}
+
+#email:hover{
+    font-size: 18px;
+}
+
+#address:hover{
+    font-size: 18px;
+}
+
+footer{
+    background-color: grey;
+    color: white;
+    text-align:center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+footer:hover{
+    color: black;
+}
